@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   var typed = new Typed('#element', {
     strings: ['Hola', 'Como estás','Bienvenidos a la web'],
     typeSpeed: 50,
+    loop: true
   });
   
     // --- Create LightBox
